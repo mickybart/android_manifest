@@ -460,11 +460,11 @@
   <project path="build" name="android_build" remote="mickybart" revision="bAOSP-5.0" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="platform/bionic" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
   <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" revision="bAOSP-5.0" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" remote="mickybart" revision="bAOSP-5.0" />
-  <project path="frameworks/av" name="platform/frameworks/av" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="mickybart" revision="bAOSP-5.0" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="mickybart" revision="bAOSP-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
@@ -473,7 +473,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
   <project path="kernel/sony/msm8x60" name="kernel_sony_msm8x60" remote="mickybart" revision="bAOSP" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="mickybart" revision="bAOSP-5.0" groups="pdk-cw-fs" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" remote="mickybart" revision="bAOSP-5.0" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="mickybart" revision="bAOSP-5.0" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="mickybart" revision="bAOSP-5.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" revision="refs/tags/android-4.4.4_r2.0.1" />
