@@ -461,7 +461,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
-  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" revision="bAOSP-5.0" />
+  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" revision="nAOSP-5.0" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="mickybart" revision="bAOSP-5.0" />
   <project path="frameworks/av" name="android_frameworks_av" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
@@ -479,5 +479,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="system/core" name="android_system_core" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
   <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="mickybart" revision="bAOSP" />
-  
+
+  <!-- Other projects for nAOSP ROM -->
+  <project path="external/busybox" name="android_external_busybox" remote="mickybart" revision="nAOSP-5.0" />  
+
 </manifest>
