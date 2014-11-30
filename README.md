@@ -7,6 +7,11 @@ New features:
     Device : AOSP code fix to support full features of this device (eg: FMradio)
     Busybox
     Recovery : FOTAkernel only. You can flash TWRP/CWM into mmcblk0p11
+    Email : Fake security for Exchange (remove pin, remote erase ...)
+    Su    : Integration of Superuser into Settings and support of su
+    Power menu : Enhanced power menu with reboot support
+    Quick setting : pull down with one finger on the right side of status bar
+    Recent apps : add clear all recent applications
 
 1. initialize the repo:
 
