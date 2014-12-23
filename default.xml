@@ -161,7 +161,6 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -335,7 +334,6 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
@@ -461,6 +459,7 @@
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" remote="mickybart" revision="nAOSP-5.0" /> 
   <project path="external/chromium_org" name="android_external_chromium_org" remote="mickybart" revision="bAOSP-5.0" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="mickybart" revision="nAOSP-5.0" groups="pdk" />
   <project path="frameworks/av" name="android_frameworks_av" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="mickybart" revision="nAOSP-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
@@ -473,6 +472,7 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="mickybart" revision="bAOSP-5.0" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="mickybart" revision="bAOSP-5.0" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="mickybart" revision="nAOSP-5.0" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="mickybart" revision="nAOSP-5.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mickybart" revision="nAOSP-5.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" revision="refs/tags/android-4.4.4_r2.0.1" />
