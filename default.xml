@@ -455,6 +455,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
+  <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" revision="nAOSP-5.0" />
   <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" revision="nAOSP-5.0" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="mickybart" revision="bAOSP-5.0" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" remote="mickybart" revision="nAOSP-5.0" /> 
