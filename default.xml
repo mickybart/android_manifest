@@ -434,7 +434,6 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -479,6 +478,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="system/core" name="android_system_core" remote="mickybart" revision="nAOSP-5.0" groups="pdk" />
   <project path="system/extras" name="android_system_extras" remote="mickybart" revision="nAOSP-5.0" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="mickybart" revision="nAOSP-5.0" groups="pdk" />
   <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="mickybart" revision="nAOSP-5.0" />
 
 </manifest>
