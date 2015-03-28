@@ -13,6 +13,10 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote name="mickybart"
+          fetch="https://github.com/mickybart" 
+          revision="refs/heads/uCyan-12.1" />
+
   <default revision="refs/heads/staging/cm-12.1"
            remote="github"
            sync-c="true"
@@ -584,8 +588,8 @@
 
   <!-- Sony Xperia S / Nozomi  -->
   
-  <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" revision="uCyan-12.1" />
-  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" revision="uCyan-12.1" />
+  <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" />
+  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" />
   <project path="kernel/msm" name="kernel_sony_msm8x60" remote="mickybart" revision="android-msm-sony-fuji-3.4-uCyan-12.1" />
-  <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="mickybart" revision="uCyan-12.1" />
+  <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="mickybart" />
 </manifest>
