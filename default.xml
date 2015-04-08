@@ -13,6 +13,10 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote name="mickybart"
+          fetch="https://github.com/mickybart" 
+          revision="refs/heads/uCyan-12.1" />
+
   <default revision="refs/heads/cm-12.0"
            remote="github"
            sync-c="true"
