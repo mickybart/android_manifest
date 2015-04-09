@@ -516,4 +516,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+  <!-- Sony Xperia S / Nozomi  -->
+ 
+  <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" />
+  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" />
+  <project path="kernel/msm" name="kernel_sony_msm8x60" remote="mickybart" revision="android-msm-sony-fuji-3.4-nAOSP-5.1" />
+  <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="mickybart" />
 </manifest>
