@@ -3,6 +3,11 @@
 
   <remote  name="aosp"
            fetch=".." />
+
+  <remote name="mickybart"
+           fetch="https://github.com/mickybart" 
+           revision="refs/heads/nAOSP-5.1" />
+
   <default revision="refs/tags/android-5.1.0_r3"
            remote="aosp"
            sync-j="4" />
