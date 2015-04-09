@@ -15,7 +15,7 @@
 
   <remote name="mickybart"
           fetch="https://github.com/mickybart" 
-          revision="refs/heads/uCyan-12.1" />
+          revision="refs/heads/uCyan-12.0" />
 
   <default revision="refs/heads/cm-12.0"
            remote="github"
