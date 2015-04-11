@@ -1,0 +1,23 @@
+nAOSP 5.1 for Sony Xperia S
+
+near AOSP ROM 5.1
+
+The purpose of this ROM is to provide support for Xperia S.
+
+Build process :
+
+    repo init -u https://github.com/mickybart/android_manifest -b nAOSP-5.1
+    repo sync
+    cd device/sony/nozomi/patch
+    ./aosp-patch-apply.sh <path to the source code>
+    cd -
+    source build/envsetup.sh
+    lunch aosp_nozomi-userdebug
+    make otapackage
+
+Update a previous build (resync) :
+
+    ./aosp-patch-unapply.sh <path to the source code>
+    repo sync
+    ./aosp-patch-apply.sh <path to the source code>   (eventually merge manually in case of conflict)
+
