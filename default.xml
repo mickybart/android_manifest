@@ -466,7 +466,7 @@
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
-  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
+  <!-- <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" /> -->
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <!-- <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" /> -->
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" remote="aosp" />
