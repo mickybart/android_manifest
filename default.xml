@@ -575,7 +575,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="mickybart" revision="hybris-5.1" />
   <project path="external/busybox" name="android_external_busybox" remote="mer-hybris" revision="hybris-aosp-5.1.0_r5" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="mickybart" revision="hybris-5.1" />
-  <project path="hybris/hybris-boot" name="hybris-boot" remote="mer-hybris" revision="master" />
+  <project path="hybris/hybris-boot" name="hybris-boot" remote="mickybart" revision="hybris-5.1" />
   <project path="hybris/mer-kernel-check" name="mer-kernel-check" remote="mer-hybris" revision="master" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="mickybart" revision="hybris-5.1" />
 
