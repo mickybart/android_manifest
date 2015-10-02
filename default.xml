@@ -578,6 +578,9 @@
   <project path="hybris/hybris-boot" name="hybris-boot" remote="mickybart" revision="hybris-5.1" />
   <project path="hybris/mer-kernel-check" name="mer-kernel-check" remote="mer-hybris" revision="master" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="mickybart" revision="hybris-5.1" />
+  <project path="rpm" name="droid-hal-nozomi" remote="mickybart" revision="master" />
+  <project path="hybris/droid-configs" name="droid-config-nozomi" remote="mickybart" revision="master" />
+  <project path="hybris/droid-hal-version-nozomi" name="droid-hal-version-nozomi" remote="mickybart" revision="master" />
 
   <!-- 3rd -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="mickybart" />
