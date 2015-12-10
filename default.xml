@@ -16,7 +16,12 @@
            fetch="https://github.com/vipersaudio"
            revision="refs/heads/master" />
 
-  <default revision="refs/tags/android-5.1.1_r29"
+  <remote  name="millosr"
+           fetch="https://github.com/millosr"
+           revision="refs/heads/nAOSP-5.1" />
+
+
+  <default revision="refs/tags/android-5.1.1_r30"
            remote="aosp"
            sync-j="4" />
 
@@ -533,9 +538,10 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Sony Xperia S / Nozomi  -->
- 
   <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" />
-  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" />
+  <!-- millosr -->
+  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="millosr" />
+
   <project path="device/sony/thermanager" name="device_sony_thermanager" remote="mickybart" revision="master" />
   <project path="kernel/msm" name="kernel_sony_msm8x60" remote="mickybart" revision="android-msm-sony-fuji-3.4-nAOSP-5.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -550,18 +556,23 @@
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" />
 
   <!-- for repositories not managed by the patch script -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="mickybart" />
+  <!-- millosr -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="millosr" />
+
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="mickybart" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="mickybart" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="mickybart" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="mickybart" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mickybart" />
+  <!-- millosr -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="millosr" />
 
   <!-- 3rd -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="mickybart" />
+  <!-- millosr -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="millosr" />
   <project path="external/koush/Superuser" name="android_external_koush_Superuser" remote="mickybart" />
   <project path="external/koush/Widgets" name="android_external_koush_Widgets" remote="mickybart" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mickybart" revision="refs/heads/nozomi" />
   <project path="packages/apps/ViPER4AndroidFX" name="viper4android_fx" remote="v4a" />
-  <project path="packages/apps/WakeUp" name="android_packages_apps_WakeUp" remote="mickybart" revision="refs/heads/master" />
+  <!-- millosr -->
+  <project path="packages/apps/WakeUp" name="android_packages_apps_WakeUp" remote="millosr" revision="refs/heads/master" />
 </manifest>
