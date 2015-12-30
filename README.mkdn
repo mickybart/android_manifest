@@ -4,7 +4,7 @@ near AOSP ROM 5.1
 
 Forked from mickybart nAOSP repository:
 
-    https://github.com/mickybart/android_manifest
+https://github.com/mickybart/android_manifest
 
 The purpose of this ROM is to provide support for Xperia S.
 
@@ -24,4 +24,3 @@ Update a previous build (resync) :
     ./aosp-patch-unapply.sh <path to the source code>
     repo sync
     ./aosp-patch-apply.sh <path to the source code>   (eventually merge manually in case of conflict)
-
