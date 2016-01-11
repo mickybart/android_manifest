@@ -8,6 +8,10 @@
            fetch="https://github.com/mickybart" 
            revision="refs/heads/nAOSP-5.1" />
 
+  <remote name="ipromeh"
+           fetch="https://github.com/ipromeh"
+           revision="refs/heads/lp5.1" />
+
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            revision="refs/heads/cm-12.1" />
@@ -335,7 +339,9 @@
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
+  <!--
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
+  -->
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
@@ -564,4 +570,7 @@
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mickybart" revision="refs/heads/nozomi" />
   <project path="packages/apps/ViPER4AndroidFX" name="viper4android_fx" remote="v4a" />
   <project path="packages/apps/WakeUp" name="android_packages_apps_WakeUp" remote="mickybart" revision="refs/heads/master" />
+
+  <!-- for prebuilt webview by Google -->
+  <project path="frameworks/webview" name="android_frameworks_webview" groups="pdk-cw-fs" remote="ipromeh" />
 </manifest>
