@@ -541,5 +541,6 @@
 
   <!-- 3rd -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="mickybart" />
+  <project path="packages/apps/WakeUp" name="android_packages_apps_WakeUp" remote="mickybart" revision="refs/heads/master" />
 
 </manifest>
