@@ -1,11 +1,13 @@
 nAOSP 6.0 for Sony Xperia S
-
+====================
 near AOSP ROM 6.0
 
-The purpose of this ROM is to provide support for Xperia S based on AOSP code.
+The purpose of this ROM is to provide support for Xperia S based on AOSP code.<br>
+Some improvements and specific features are included
 
-XDA Thread: http://forum.xda-developers.com/xperia-s/s-development/rom-naosprom-xperia-s-t2958516
-Author: mickybart
+[XDA Thread](http://forum.xda-developers.com/xperia-s/s-development/rom-naosprom-xperia-s-t2958516) <br>
+Author:
+[mickybart](http://forum.xda-developers.com/member.php?u=6043081)
 
 Build process :
 
