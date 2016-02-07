@@ -381,7 +381,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs"/>
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
+  <!-- <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" /> -->
   <!-- <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" /> -->
   <!-- <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" /> -->
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
@@ -534,6 +534,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="mickybart" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="mickybart" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="mickybart" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="pdk-fs" remote="mickybart" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="mickybart" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" groups="pdk-fs" remote="mickybart" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" groups="pdk-fs" remote="mickybart" />
