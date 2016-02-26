@@ -2,6 +2,8 @@ nAOSP 5.1 for Sony Xperia S
 
 near AOSP ROM 5.1
 
+noemulated version (means that we keep the old partition layout with separate /data and /sdcard)
+
 The purpose of this ROM is to provide support for Xperia S.
 
 Build process :
