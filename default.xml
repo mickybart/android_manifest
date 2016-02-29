@@ -508,6 +508,7 @@
   <!-- Sony Xperia S / Nozomi  -->
   
   <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" />
+  <project path="device/sony/hikari" name="device_sony_nozomi" remote="mickybart" revision="refs/heads/nAOSP-5.1-hikari" />
   <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" />
   <project path="device/sony/thermanager" name="device_sony_thermanager" remote="mickybart" revision="master" />
   <project path="external/openssl_legacy" name="android_external_openssl" groups="pdk" remote="mickybart" />
@@ -515,6 +516,7 @@
   <project path="kernel/msm" name="kernel_sony_msm8x60" remote="mickybart" revision="android-msm-sony-fuji-3.4-nAOSP-6.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="vendor/sony/hikari" name="vendor_sony_nozomi" remote="mickybart" revision="refs/heads/nAOSP-5.1-hikari" />
   <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="mickybart" />
   
   <!-- nAOSP/Nozomi Hardware -->
