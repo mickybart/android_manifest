@@ -1,8 +1,8 @@
-nAOSP 5.1 for Sony Xperia S
+nAOSP 5.1 for Sony Xperia S / Acro S
 
 near AOSP ROM 5.1
 
-The purpose of this ROM is to provide support for Xperia S.
+The purpose of this ROM is to provide support for Xperia S and Acro S
 
 Build process :
 
@@ -12,7 +12,7 @@ Build process :
     ./aosp-patch-apply.sh <path to the source code>
     cd -
     source build/envsetup.sh
-    lunch aosp_nozomi-userdebug
+    lunch aosp_nozomi-userdebug   (aosp_hikari-userdebug for Acro S)
     make otapackage
 
 Update a previous build (resync) :
