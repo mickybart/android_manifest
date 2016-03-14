@@ -20,7 +20,7 @@
            fetch="https://github.com/vipersaudio"
            revision="refs/heads/master" />
 
-  <default revision="refs/tags/android-5.1.1_r35"
+  <default revision="refs/tags/android-5.1.1_r36"
            remote="aosp"
            sync-j="4" />
 
