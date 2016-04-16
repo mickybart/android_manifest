@@ -7,6 +7,9 @@
   <remote  name="mickybart"
            fetch="https://github.com/mickybart" 
            revision="refs/heads/nAOSP-5.1" />
+  
+  <remote  name="mer-hybris"
+           fetch="https://github.com/mer-hybris" />
 
   <remote name="ipromeh"
            fetch="https://github.com/ipromeh"
@@ -29,7 +32,9 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
+  <!--
   <project path="bionic" name="platform/bionic" groups="pdk" />
+  -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <!--
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -315,7 +320,9 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
+  <!--
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  -->
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -516,7 +523,9 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
+  <!--
   <project path="system/core" name="platform/system/core" groups="pdk" />
+  -->
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -542,9 +551,9 @@
  
   <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" />
   <project path="device/sony/hikari" name="device_sony_nozomi" remote="mickybart" revision="refs/heads/nAOSP-5.1-hikari" />
-  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" />
+  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" revision="refs/heads/nAOSP-5.1-hybris-dev" />
   <project path="device/sony/thermanager" name="device_sony_thermanager" remote="mickybart" revision="master" />
-  <project path="kernel/msm" name="kernel_sony_msm8x60" remote="mickybart" revision="android-msm-sony-fuji-3.4-nAOSP-5.1" />
+  <project path="kernel/msm" name="kernel_sony_msm8x60" remote="mickybart" revision="android-msm-sony-fuji-3.4-nAOSP-5.1-hybris-dev" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="vendor/sony/hikari" name="vendor_sony_nozomi" remote="mickybart" revision="refs/heads/nAOSP-5.1-hikari" />
@@ -576,4 +585,10 @@
 
   <!-- for prebuilt webview by Google -->
   <project path="frameworks/webview" name="android_frameworks_webview" groups="pdk-cw-fs" remote="ipromeh" />
+  
+  <!-- hybris -->
+  <project path="bionic" name="android_bionic" groups="pdk" remote="mickybart" revision="hybris-5.1" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="mickybart" revision="hybris-5.1" />
+  <project path="hybris/mer-kernel-check" name="mer-kernel-check" remote="mer-hybris" revision="master" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="mickybart" revision="hybris-5.1" />
 </manifest>
