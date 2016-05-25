@@ -7,6 +7,8 @@ The purpose of this ROM is to provide support for Xperia S and Acro S
 Build process :
 
     repo init -u https://github.com/mickybart/android_manifest -b nAOSP-5.1
+    mkdir .repo/local_manifests/
+    ln -s ../manifests/local_manifest.xml .repo/local_manifests/local_manifest.xml
     repo sync
     cd device/sony/nozomi/patch
     ./aosp-patch-apply.sh <path to the source code>

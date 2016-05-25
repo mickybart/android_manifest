@@ -3,23 +3,6 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-
-  <remote  name="mickybart"
-           fetch="https://github.com/mickybart" 
-           revision="refs/heads/nAOSP-5.1" />
-
-  <remote name="ipromeh"
-           fetch="https://github.com/ipromeh"
-           revision="refs/heads/lp5.1" />
-
-  <remote  name="cm"
-           fetch="https://github.com/CyanogenMod"
-           revision="refs/heads/cm-12.1" />
-
-  <remote  name="v4a"
-           fetch="https://github.com/vipersaudio"
-           revision="refs/heads/master" />
-
   <default revision="refs/tags/android-5.1.1_r36"
            remote="aosp"
            sync-j="4" />
@@ -31,9 +14,7 @@
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
-  <!--
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  -->
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -41,7 +22,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
-  <!--
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
@@ -49,7 +29,6 @@
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu" clone-depth="1" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
-  -->
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -64,7 +43,6 @@
   <project path="device/generic/qemu" name="device/generic/qemu" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
-  <!--
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
@@ -76,9 +54,8 @@
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
-  -->
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <!-- <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" /> -->
+  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -306,7 +283,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <!-- <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" /> -->
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -339,9 +316,7 @@
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <!--
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
-  -->
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
@@ -389,32 +364,32 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
-  <!-- <project path="packages/apps/Browser" name="platform/packages/apps/Browser" /> -->
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <!-- <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" /> -->
-  <!-- <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" /> -->
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <!-- <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" /> -->
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-  <!-- <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" /> -->
+  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <!-- <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" /> -->
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <!-- <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" /> -->
+  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
-  <!-- <project path="packages/apps/Music" name="platform/packages/apps/Music" /> -->
-  <!-- <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" /> -->
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
@@ -423,7 +398,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <!-- <project path="packages/apps/Settings" name="platform/packages/apps/Settings" /> -->
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -480,7 +455,6 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <!--
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" />
@@ -494,7 +468,6 @@
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
-  -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" />
@@ -538,42 +511,4 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <!-- Sony Xperia S / Nozomi  -->
- 
-  <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" />
-  <project path="device/sony/hikari" name="device_sony_nozomi" remote="mickybart" revision="refs/heads/nAOSP-5.1-hikari" />
-  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" />
-  <project path="device/sony/thermanager" name="device_sony_thermanager" remote="mickybart" revision="master" />
-  <project path="kernel/msm" name="kernel_sony_msm8x60" remote="mickybart" revision="android-msm-sony-fuji-3.4-nAOSP-5.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="vendor/sony/hikari" name="vendor_sony_nozomi" remote="mickybart" revision="refs/heads/nAOSP-5.1-hikari" />
-  <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="mickybart" />
-
-  <!-- from CyanogenMod -->
-  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" />
-  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="refs/heads/cm-12.0" />
-  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" />
-
-  <!-- for repositories not managed by the patch script -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="mickybart" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="mickybart" />
-  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="mickybart" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="mickybart" />
-  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="mickybart" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mickybart" />
-
-  <!-- 3rd -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="mickybart" />
-  <project path="external/koush/Superuser" name="android_external_koush_Superuser" remote="mickybart" />
-  <project path="external/koush/Widgets" name="android_external_koush_Widgets" remote="mickybart" />
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mickybart" revision="refs/heads/nozomi" />
-  <project path="packages/apps/ROMUpdater" name="android_packages_apps_ROMUpdater" remote="mickybart" />
-  <project path="packages/apps/ViPER4AndroidFX" name="viper4android_fx" remote="v4a" />
-  <project path="packages/apps/WakeUp" name="android_packages_apps_WakeUp" remote="mickybart" revision="refs/heads/master" />
-
-  <!-- for prebuilt webview by Google -->
-  <project path="frameworks/webview" name="android_frameworks_webview" groups="pdk-cw-fs" remote="ipromeh" />
 </manifest>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="mickybart-gls"
+           fetch="https://github.com/mickybart"
+           revision="refs/heads/gnulinux-support-nAOSP-5.1" />
+
+  <remote  name="mickybart"
+           fetch="https://github.com/mickybart" 
+           revision="refs/heads/nAOSP-5.1" />
+
+  <remote name="ipromeh"
+           fetch="https://github.com/ipromeh"
+           revision="refs/heads/lp5.1" />
+
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod"
+           revision="refs/heads/cm-12.1" />
+
+  <remote  name="v4a"
+           fetch="https://github.com/vipersaudio"
+           revision="refs/heads/master" />
+
+  <!-- remove upstream projects not compatible with GNU/Linux support -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/system/core" />
+
+  <!-- reintroduce previously removed projects with GNU/Linux support -->
+  <project path="build" name="android_build" remote="mickybart-gls">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="bionic" name="android_bionic" remote="mickybart-gls" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="mickybart-gls" />
+  <project path="system/core" name="android_system_core" remote="mickybart-gls" />
+
+  <!-- GNU/Linux support -->
+  <project path="external/busybox" name="android_external_busybox" remote="mickybart" revision="refs/heads/gnulinux-support-5.1" />
+  <project path="gnulinux_support" name="gnulinux_support" remote="mickybart" revision="master" >
+    <linkfile src="Android/android_hybris" dest="hybris" />
+  </project>
+
+  <!-- remove unneeded projects -->
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="device/asus/deb" />
+  <remove-project name="device/asus/flo" />
+  <remove-project name="device/asus/flo-kernel" />
+  <remove-project name="device/asus/fugu" />
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/asus/grouper" />
+  <remove-project name="device/asus/tilapia" />
+  <remove-project name="device/google/accessory/arduino" />
+  <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/htc/flounder" />
+  <remove-project name="device/htc/flounder-kernel" />
+  <remove-project name="device/lge/hammerhead" />
+  <remove-project name="device/lge/hammerhead-kernel" />
+  <remove-project name="device/lge/mako" />
+  <remove-project name="device/lge/mako-kernel" />
+  <remove-project name="device/moto/shamu" />
+  <remove-project name="device/moto/shamu-kernel" />
+  <remove-project name="device/samsung/manta" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/webview" />
+  <remove-project name="platform/packages/apps/Browser" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/ContactsCommon" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/FMRadio" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/InCallUI" />
+  <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/MusicFX" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+
+  <!-- Sony Xperia S / Nozomi and Hikari -->
+ 
+  <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" />
+  <project path="device/sony/hikari" name="device_sony_nozomi" remote="mickybart" revision="refs/heads/nAOSP-5.1-hikari" />
+  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart-gls" />
+  <project path="device/sony/thermanager" name="device_sony_thermanager" remote="mickybart" revision="master" />
+  <project path="kernel/msm" name="kernel_sony_msm8x60" remote="mickybart" revision="android-msm-sony-fuji-3.4-nAOSP-5.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="vendor/sony/hikari" name="vendor_sony_nozomi" remote="mickybart" revision="refs/heads/nAOSP-5.1-hikari" />
+  <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="mickybart" />
+
+  <!-- from CyanogenMod -->
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" />
+
+  <!-- for repositories not managed by the patch script -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="mickybart" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="mickybart" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="mickybart" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="mickybart" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="mickybart" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mickybart" />
+
+  <!-- 3rd -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="mickybart" />
+  <project path="external/koush/Superuser" name="android_external_koush_Superuser" remote="mickybart" />
+  <project path="external/koush/Widgets" name="android_external_koush_Widgets" remote="mickybart" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mickybart" revision="refs/heads/nozomi" />
+  <project path="packages/apps/ROMUpdater" name="android_packages_apps_ROMUpdater" remote="mickybart" />
+  <project path="packages/apps/ViPER4AndroidFX" name="viper4android_fx" remote="v4a" />
+  <project path="packages/apps/WakeUp" name="android_packages_apps_WakeUp" remote="mickybart" revision="refs/heads/master" />
+
+  <!-- for prebuilt webview by Google -->
+  <project path="frameworks/webview" name="android_frameworks_webview" groups="pdk-cw-fs" remote="ipromeh" />
+</manifest>
