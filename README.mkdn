@@ -1,3 +1,7 @@
+!! NOT FOR END USER / BETA FOR SUBSTRATUM Devs !!<br>
+see https://plus.google.com/+SykoPompos/posts/CwZFLGcMs4n
+
+
 nAOSP 6.0 for Sony Xperia S / Acro S
 ====================
 near AOSP ROM 6.0

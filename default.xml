@@ -519,16 +519,16 @@
   
   <!-- nAOSP/Nozomi Hardware -->
 
-  <project path="build" name="android_build" groups="pdk" remote="mickybart" >
+  <project path="build" name="android_build" groups="pdk" remote="mickybart" revision="refs/heads/nAOSP-6.0-oms" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" groups="pdk" remote="mickybart" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="mickybart" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" remote="mickybart" />
   <project path="external/lz4" name="android_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="mickybart" />
-  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="mickybart" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="mickybart" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="mickybart" />
+  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="mickybart" revision="refs/heads/nAOSP-6.0-oms" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="mickybart" revision="refs/heads/nAOSP-6.0-oms" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="mickybart" revision="refs/heads/nAOSP-6.0-oms" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="mickybart" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="mickybart" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="mickybart" />
