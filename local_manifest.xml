@@ -4,6 +4,10 @@
            fetch="https://github.com/mickybart"
            revision="refs/heads/nAOSP-7.1" />
 
+  <remote  name="v4a"
+           fetch="https://github.com/vipersaudio"
+           revision="refs/heads/master" />
+
   <!-- remove upstream projects modified for nAOSProm -->
   <remove-project name="platform/build" />
   <remove-project name="platform/bionic" />
@@ -46,8 +50,13 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mickybart" />
   <project path="system/core" name="android_system_core" remote="mickybart" />
   <project path="system/extras" name="android_system_extras" remote="mickybart" />
-  <project path="system/extras/su" name="android_system_extras_su" remote="mickybart" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="mickybart" />
+
+  <!-- Extras/3rd -->
+  <project path="packages/apps/ROMUpdater" name="android_packages_apps_ROMUpdater" remote="mickybart" />
+  <project path="packages/apps/ViPER4AndroidFX" name="viper4android_fx" remote="v4a" />
+  <project path="packages/apps/WakeUp" name="android_packages_apps_WakeUp" remote="mickybart" revision="refs/heads/master" />
+  <project path="system/extras/su" name="android_system_extras_su" remote="mickybart" />
 
   <!-- Sony Xperia S -->
  
@@ -60,6 +69,11 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="mickybart" />
+
+  <!-- remove features -->
+  <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/MusicFX" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
   
   <!-- remove unneeded projects -->
   <remove-project name="device/asus/fugu" />
