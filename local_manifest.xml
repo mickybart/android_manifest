@@ -10,6 +10,7 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/libnfc-nxp" />
   <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/broadcom/libbt" />
@@ -18,6 +19,8 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
   
@@ -29,6 +32,7 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="mickybart" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="mickybart" />
   <project path="frameworks/av" name="android_frameworks_av" remote="mickybart" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="mickybart" />
   <project path="frameworks/native" name="android_frameworks_native" remote="mickybart" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="mickybart" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="mickybart" />
@@ -37,6 +41,8 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="mickybart" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="mickybart" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="mickybart" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="mickybart" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mickybart" />
   <project path="system/core" name="android_system_core" remote="mickybart" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="mickybart" />
 
