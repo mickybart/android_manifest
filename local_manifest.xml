@@ -26,6 +26,7 @@
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
@@ -50,6 +51,7 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="mickybart" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="mickybart" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="mickybart" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="mickybart" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="mickybart" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="mickybart" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="mickybart" />
