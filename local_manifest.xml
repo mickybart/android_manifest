@@ -64,7 +64,7 @@
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" />
   <project path="packages/apps/ROMUpdater" name="android_packages_apps_ROMUpdater" remote="mickybart" />
-  <project path="packages/apps/ViPER4AndroidFX" name="viper4android_fx" remote="v4a" />
+  <project path="packages/apps/ViPER4AndroidFX" name="android_packages_apps_ViPER4AndroidFX" remote="mickybart" revision="refs/heads/master" />
   <project path="packages/apps/WakeUp" name="android_packages_apps_WakeUp" remote="mickybart" revision="refs/heads/master" />
   <project path="system/extras/su" name="android_system_extras_su" remote="mickybart" />
 
