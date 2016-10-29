@@ -77,6 +77,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="mickybart" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
   <project path="external/busybox" name="android_external_busybox" remote="mickybart" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" revision="refs/tags/android-6.0.1_r61" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" />
   <project path="packages/apps/ROMUpdater" name="android_packages_apps_ROMUpdater" remote="mickybart" />
