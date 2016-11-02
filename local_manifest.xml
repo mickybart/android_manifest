@@ -15,7 +15,6 @@
   <!-- remove upstream projects modified for nAOSProm -->
   <remove-project name="platform/build" />
   <remove-project name="platform/bionic" />
-  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/libnfc-nxp" />
   <remove-project name="platform/frameworks/av" />
@@ -74,7 +73,6 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="mickybart" />
 
   <!-- Extras/3rd -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="mickybart" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
   <project path="external/busybox" name="android_external_busybox" remote="mickybart" />
   <project path="external/setools" name="android_external_setools" remote="mickybart" />
