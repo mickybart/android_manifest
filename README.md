@@ -1,8 +1,8 @@
 
-#nAOSP 7.0 for Sony Xperia S
+#nAOSP 7.0 for Sony Xperia S and Acro S
 
 near AOSP ROM 7.0
-The purpose of this ROM is to provide support for Xperia S
+The purpose of this ROM is to provide support for Xperia S / Acro S
 
 ##Build
 
@@ -16,7 +16,7 @@ source build/envsetup.sh
 
 export ROM_BUILD_NUM=xx
 
-lunch aosp_nozomi-userdebug
+lunch aosp_nozomi-userdebug (aosp_hikari-userdebug for Acro S)
 
 make otapackage
 ```
