@@ -10,7 +10,7 @@
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
-	   revision="refs/heads/cm-14.0" />
+	   revision="refs/heads/cm-14.1" />
 
   <remote  name="oms"
            fetch="https://github.com/TeamSubstratum"
