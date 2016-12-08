@@ -6,7 +6,11 @@
 
   <remote  name="v4a"
            fetch="https://github.com/vipersaudio"
-           revision="refs/heads/master" />
+	   revision="refs/heads/master" />
+
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod"
+	   revision="refs/heads/staging/cm-14.0" />
 
   <!-- remove upstream projects modified for nAOSProm -->
   <remove-project name="platform/build" />
@@ -53,6 +57,8 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="mickybart" />
 
   <!-- Extras/3rd -->
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" />
   <project path="packages/apps/ROMUpdater" name="android_packages_apps_ROMUpdater" remote="mickybart" />
   <project path="packages/apps/ViPER4AndroidFX" name="viper4android_fx" remote="v4a" />
   <project path="packages/apps/WakeUp" name="android_packages_apps_WakeUp" remote="mickybart" revision="refs/heads/master" />
