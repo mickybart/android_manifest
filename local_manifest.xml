@@ -14,7 +14,7 @@
 
   <remote  name="oms"
            fetch="https://github.com/TeamSubstratum"
-           revision="refs/heads/master" />
+           revision="refs/heads/n" />
 
   <!-- remove upstream projects modified for nAOSProm -->
   <remove-project name="platform/build" />
