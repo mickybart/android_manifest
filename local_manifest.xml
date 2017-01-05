@@ -9,7 +9,7 @@
 	   revision="refs/heads/master" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod"
+           fetch="https://github.com/LineageOS"
 	   revision="refs/heads/cm-14.1" />
 
   <remote  name="oms"
