@@ -20,6 +20,15 @@ lunch aosp_nozomi-userdebug (aosp_hikari-userdebug for Acro S)
 make otapackage
 ```
 
+##Rebase issue for manifest
+
+```
+cd .repo/manifests
+git rebase --abort
+git reset --hard origin/nAOSP-7.1.1
+cd -
+```
+
 ##Jack Xmx issue
 
 ```
