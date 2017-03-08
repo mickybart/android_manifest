@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="mickybart"
            fetch="https://github.com/mickybart"
-           revision="refs/heads/nAOSP-7.1.1" />
+           revision="refs/heads/nAOSP-nougat-mr1.3-release" />
 
   <remote  name="v4a"
            fetch="https://github.com/vipersaudio"
