@@ -89,6 +89,7 @@
 
   <!-- Extras/3rd -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="mickybart" revision="refs/heads/nAOSP-android-7.1.2" />
+  <project path="external/ahbottomnavigation" name="android_external_ahbottomnavigation" remote="cm" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
   <project path="external/busybox" name="android_external_busybox" remote="mickybart" />
   <project path="external/setools" name="android_external_setools" remote="mickybart" />
