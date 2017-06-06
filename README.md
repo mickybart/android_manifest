@@ -1,12 +1,12 @@
-#nAOSP 7.1.1 for Sony Xperia S and Acro S
+#nAOSP 7.1.2 for Sony Xperia S and Acro S
 
-near AOSP ROM 7.1.1
+near AOSP ROM 7.1.2
 The purpose of this ROM is to provide support for Xperia S / Acro S
 
 ##Build
 
 ```
-repo init -u https://github.com/mickybart/android_manifest -b nAOSP-7.1.1
+repo init -u https://github.com/mickybart/android_manifest -b nAOSP-7.1.2
 mkdir .repo/local_manifests/
 ln -s ../manifests/local_manifest.xml .repo/local_manifests/local_manifest.xml
 repo sync
@@ -25,7 +25,7 @@ make otapackage
 ```
 cd .repo/manifests
 git rebase --abort
-git reset --hard origin/nAOSP-7.1.1
+git reset --hard origin/nAOSP-7.1.2
 cd -
 ```
 
