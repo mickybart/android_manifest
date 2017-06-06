@@ -2,11 +2,11 @@
 <manifest>
   <remote  name="mickybart"
            fetch="https://github.com/mickybart"
-           revision="refs/heads/nAOSP-nougat-mr2-release" />
+           revision="refs/heads/nAOSP-nougat-mr2.2-release" />
 
   <remote  name="mickybart-hikari"
            fetch="https://github.com/mickybart"
-           revision="refs/heads/nAOSP-nougat-mr2-release-hikari" />
+           revision="refs/heads/nAOSP-nougat-mr2.2-release-hikari" />
 
   <remote  name="v4a"
            fetch="https://github.com/vipersaudio"
