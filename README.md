@@ -1,9 +1,9 @@
-#nAOSP 8 for Sony Xperia S and Acro S
+# nAOSP 8 for Sony Xperia S and Acro S
 
 near AOSP ROM 8
 The purpose of this ROM is to provide support for Xperia S / Acro S
 
-##Build
+## Build
 
 ```
 repo init -u https://github.com/mickybart/android_manifest -b nAOSP-8
@@ -20,7 +20,7 @@ lunch aosp_nozomi-userdebug (aosp_hikari-userdebug for Acro S)
 make otapackage
 ```
 
-##Rebase issue for manifest
+## Rebase issue for manifest
 
 ```
 cd .repo/manifests
@@ -29,7 +29,7 @@ git reset --hard origin/nAOSP-8
 cd -
 ```
 
-##Jack Xmx issue
+## Jack Xmx issue
 
 ```
 out/host/linux-x86/bin/jack-admin stop-server
