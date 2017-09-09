@@ -7,6 +7,7 @@
   <!-- remove upstream projects modified for nAOSProm -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bionic" />
   
   <!-- reintroduce modified projects with nAOSProm support -->
   <project path="build/make" name="android_build" remote="mickybart" >
@@ -22,6 +23,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="bionic" name="android_bionic" remote="mickybart" />
 
   <!-- Extras/3rd -->
 
