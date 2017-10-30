@@ -8,6 +8,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/system/core" />
@@ -27,6 +28,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="android_bionic" remote="mickybart" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="mickybart" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="mickybart" />
   <project path="hardware/ril" name="android_hardware_ril" remote="mickybart" />
   <project path="system/core" name="android_system_core" remote="mickybart" />
