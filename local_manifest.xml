@@ -42,6 +42,7 @@
   <project path="system/core" name="android_system_core" remote="mickybart" />
 
   <!-- Extras/3rd -->
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mickybart" />
 
   <!-- Sony Xperia S -->
  
