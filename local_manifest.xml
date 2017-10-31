@@ -13,6 +13,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   
@@ -36,6 +37,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="mickybart" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="mickybart" />
   <project path="hardware/ril" name="android_hardware_ril" remote="mickybart" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="mickybart" />
   <project path="system/bt" name="android_system_bt" remote="mickybart" />
   <project path="system/core" name="android_system_core" remote="mickybart" />
 
