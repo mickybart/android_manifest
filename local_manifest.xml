@@ -10,6 +10,7 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/external/jemalloc" />
   <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/libhardware" />
@@ -37,6 +38,7 @@
   <project path="bionic" name="android_bionic" remote="mickybart" />
   <project path="external/jemalloc" name="android_external_jemalloc" remote="mickybart" />
   <project path="frameworks/av" name="android_frameworks_av" remote="mickybart" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="mickybart" />
   <project path="frameworks/native" name="android_frameworks_native" remote="mickybart" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="mickybart" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="mickybart" />
