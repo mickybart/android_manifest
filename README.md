@@ -6,7 +6,7 @@ The purpose of this ROM is to provide support for Xperia S / Acro S
 ##Build
 
 ```
-repo init -u https://github.com/mickybart/android_manifest -b nAOSP-7.1.2
+repo init -u https://github.com/mickybart/android_manifest -b nAOSP-7.1.2_r36
 mkdir .repo/local_manifests/
 ln -s ../manifests/local_manifest.xml .repo/local_manifests/local_manifest.xml
 repo sync
