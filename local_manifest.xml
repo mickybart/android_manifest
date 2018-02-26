@@ -16,6 +16,18 @@
            fetch="https://github.com/substratum"
            revision="refs/heads/n-rootless" />
 
+  <remote  name="microg"
+           fetch="https://github.com/microg"
+           revision="refs/heads/master" />
+
+  <remote  name="yeriomin"
+           fetch="https://github.com/yeriomin"
+           revision="refs/tags/0.35" />
+
+  <remote  name="f-droid"
+           fetch="https://github.com/f-droid"
+           revision="refs/heads/master" />
+
   <!-- remove upstream projects modified for nAOSProm -->
   <remove-project name="platform/build" />
   <remove-project name="platform/bionic" />
@@ -109,6 +121,15 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="mickybart" />
+
+  <!-- gapps alternative -->
+  <project path="packages/microg/GmsCore" name="android_packages_apps_GmsCore" remote="microg" />
+  <project path="packages/microg/GsfProxy" name="android_packages_apps_GsfProxy" remote="microg" />
+  <project path="packages/microg/FakeStore" name="android_packages_apps_FakeStore" remote="microg" />
+  <project path="packages/microg/IchnaeaNlpBackend" name="IchnaeaNlpBackend" remote="microg" />
+  <project path="packages/microg/NominatimNlpBackend" name="NominatimGeocoderBackend" remote="microg" />
+  <project path="packages/apps/YalpStore" name="YalpStore" remote="yeriomin" />
+  <project path="packages/apps/fdroidclient" name="fdroidclient" remote="f-droid" />
 
   <!-- remove features -->
   <remove-project name="platform/packages/apps/Music" />
