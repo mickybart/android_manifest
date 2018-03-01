@@ -24,10 +24,6 @@
            fetch="https://github.com/yeriomin"
            revision="refs/tags/0.35" />
 
-  <remote  name="f-droid"
-           fetch="https://github.com/f-droid"
-           revision="refs/heads/master" />
-
   <!-- remove upstream projects modified for nAOSProm -->
   <remove-project name="platform/build" />
   <remove-project name="platform/bionic" />
@@ -131,7 +127,7 @@
   <project path="packages/microg/IchnaeaNlpBackend" name="IchnaeaNlpBackend" remote="microg" />
   <project path="packages/microg/NominatimNlpBackend" name="NominatimGeocoderBackend" remote="microg" />
   <project path="packages/apps/YalpStore" name="YalpStore" remote="yeriomin" />
-  <project path="packages/apps/fdroidclient" name="fdroidclient" remote="f-droid" />
+  <project path="packages/apps/FDroid" name="android_packages_apps_FDroid" remote="mickybart" />
 
   <!-- remove features -->
   <remove-project name="platform/packages/apps/Music" />
