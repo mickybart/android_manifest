@@ -58,7 +58,7 @@
   <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" revision="nAOSP-8-wip" />
   <project path="device/sony/thermanager" name="device_sony_thermanager" remote="mickybart" revision="master" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="mickybart" revision="nAOSP-8-wip" />
-  <project path="external/openssl_legacy" name="android_external_openssl" groups="pdk" remote="mickybart" />
+  <project path="external/openssl_legacy" name="android_external_openssl" groups="pdk" remote="mickybart" revision="nAOSP-8-wip" />
   <project path="external/stlport" name="android_external_stlport" remote="mickybart" revision="nAOSP-8-wip" /> 
   <project path="kernel/msm" name="kernel_sony_msm8x60" remote="mickybart" revision="android-msm-sony-fuji-3.4-oreo-wip-sdcardfs-redo" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
