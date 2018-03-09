@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="mickybart"
            fetch="https://github.com/mickybart"
-           revision="refs/heads/nAOSP-8-wip" />
+           revision="refs/heads/nAOSP-8.1-wip" />
 
   <!-- remove upstream projects modified for nAOSProm -->
   <remove-project name="platform/build" />
@@ -50,17 +50,17 @@
   <project path="system/core" name="android_system_core" remote="mickybart" />
 
   <!-- Extras/3rd -->
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mickybart" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mickybart" revision="nAOSP-8-wip" />
 
   <!-- Sony Xperia S -->
  
-  <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" />
-  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" />
+  <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" revision="nAOSP-8-wip" />
+  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" revision="nAOSP-8-wip" />
   <project path="device/sony/thermanager" name="device_sony_thermanager" remote="mickybart" revision="master" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="mickybart" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="mickybart" revision="nAOSP-8-wip" />
   <project path="external/openssl_legacy" name="android_external_openssl" groups="pdk" remote="mickybart" />
-  <project path="external/stlport" name="android_external_stlport" remote="mickybart" /> 
-  <project path="kernel/msm" name="kernel_sony_msm8x60" remote="mickybart" revision="android-msm-sony-fuji-3.4-oreo-wip" />
+  <project path="external/stlport" name="android_external_stlport" remote="mickybart" revision="nAOSP-8-wip" /> 
+  <project path="kernel/msm" name="kernel_sony_msm8x60" remote="mickybart" revision="android-msm-sony-fuji-3.4-oreo-wip-sdcardfs-redo" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="mickybart" />
