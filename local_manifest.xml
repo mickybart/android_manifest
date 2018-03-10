@@ -55,7 +55,7 @@
   <!-- Sony Xperia S -->
  
   <project path="device/sony/dash" name="device_sony_dash" remote="mickybart" revision="nAOSP-8-wip" />
-  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" revision="nAOSP-8-wip" />
+  <project path="device/sony/nozomi" name="device_sony_nozomi" remote="mickybart" />
   <project path="device/sony/thermanager" name="device_sony_thermanager" remote="mickybart" revision="master" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="mickybart" revision="nAOSP-8-wip" />
   <project path="external/openssl_legacy" name="android_external_openssl" groups="pdk" remote="mickybart" revision="nAOSP-8-wip" />
